@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".aboutFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent_Night">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            app:navigationIconTint="@color/black"
+            android:layout_gravity="center"
+            app:titleMarginStart="@dimen/_27sdp"
+            app:title="@string/about"
+            app:titleTextColor="@color/white"
+
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBarLayout"
+        android:padding="@dimen/_10sdp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/shareBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_10ssp"
+
+
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:src="@drawable/shar"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_10ssp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginLeft="@dimen/_40ssp"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/policyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_10ssp"
+            android:layout_below="@id/shareBtn"
+
+
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:src="@drawable/user"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_10ssp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginLeft="@dimen/_40ssp"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_10ssp"
+            android:layout_below="@id/policyBtn"
+
+
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:src="@drawable/rate"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_10ssp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_us"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginLeft="@dimen/_40ssp"
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

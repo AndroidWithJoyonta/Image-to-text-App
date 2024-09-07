@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Night Mode Color-->
+    <color name="colorAccent_Night">#EF6157</color>
+    <color name="background_Night">#000000</color>
+    <color name="Background_Night_S">#121212</color>
+    <color name="Titele_A_Night">#FFFEFE</color>
+    <color name="Titele_AA_Night">#E95C5353</color>
+    <color name="Boder_Night">#191919</color>
+    <color name="red">#ED1B0B</color>
+
+    <color name="w">#DFD8D8</color>
+
+    <color name="pink">#E2D3E4</color>
+
+
+</resources>

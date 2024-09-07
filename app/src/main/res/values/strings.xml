@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name"> OCR Scanner</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="result_now">Result Now</string>
+    <string name="image_scan"> OCR</string>
+    <string name="scan_image">Scan image</string>
+    <string name="Image">Scanner</string>
+    <string name="csnResult">Scanned Result</string>
+
+    <string name="upResult">Scanned Result</string>
+
+    <string name="savefile">Saved Files</string>
+
+    <string name="date">time</string>
+    <string name="note_title">notetitle</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">are you sure you want to delete this </string>
+    <string name="cancel">cancel</string>
+    <string name="delete_note">delete </string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="pdf_viewer">PDF Viewer</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate us</string>
+
+
+</resources>
